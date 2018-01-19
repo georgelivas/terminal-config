@@ -11,7 +11,7 @@ module.exports = {
     fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(0,225,0,0.8)',
+    cursorColor: '#33ff00',
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
     cursorShape: 'BLOCK',
@@ -26,7 +26,7 @@ module.exports = {
     backgroundColor: '#000',
 
     // border color (window, tabs)
-    borderColor: '#333',
+    borderColor: '#000',
 
     // custom css to embed in the main window
     css: '',
@@ -73,7 +73,7 @@ module.exports = {
     // make sure to use a full path if the binary name doesn't work
     // (e.g `C:\\Windows\\System32\\bash.exe` instead of just `bash.exe`)
     // if you're using powershell, make sure to remove the `--login` below
-    shell: '/bin/zsh',
+    shell: '',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
     // by default ['--login'] will be used
@@ -86,7 +86,7 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: true
+    copyOnSelect: false,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -96,6 +96,21 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+    hyperline: {
+      width: '50%',
+      color: 'white'
+    },
+
+    hyperSpotify: {
+      theme: 'custom', // important!
+      controlsPosition: 'default',
+      position: 'top',
+      overlayColor: '#fff',
+      iconColor: '#D75C1B',
+      spotifyIconColor: '#1ED760',
+      textColor: '#1ED760',
+      margin: 'double'
+    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -104,13 +119,17 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyperline",
-            "hyperlayout",
-            'hyperterm-cursor',
-           ],
+  plugins: [
+    "hyperline#0.6.1",
+    "hyperlayout",
+    "hyperterm-cursor",
+    "hypergoogle",
+    "hyper-blink",
+    "hyper-spotify"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: []
+  localPlugins: [],
 };
