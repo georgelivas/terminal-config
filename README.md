@@ -33,5 +33,5 @@ hyperSpotify: {
 ## Outcome
 ![outcome](./readmeRresources/results.png)
 
-
-# Shell: ZSH configuaration
+# Shell Configuaration ![zsh](https://img.shields.io/badge/shell-zsh-brightgreen.svg)
+[Oh-My-Zsh](http://ohmyz.sh/) is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout...
