@@ -20,16 +20,18 @@ Name     | Description
 ### Custom Theme for hyper-spotify
 ```javascript
 hyperSpotify: {
-      theme: 'custom', // important!
-      controlsPosition: 'default',
-      position: 'top',
-      overlayColor: '#fff',
-      iconColor: '#D75C1B',
-      spotifyIconColor: '#1ED760',
-      textColor: '#1ED760',
-      margin: 'double'
-    }
+   theme: 'custom',
+   controlsPosition: 'default',
+   position: 'top',
+   overlayColor: '#fff',
+   iconColor: '#D75C1B',
+   spotifyIconColor: '#1ED760',
+   textColor: '#1ED760',
+   margin: 'double'
+}
 ```
+## Outcome
+![outcome](readmeResoures/results.png)
 
 
 # Shell: ZSH configuaration
