@@ -35,3 +35,28 @@ hyperSpotify: {
 
 # Shell Configuaration ![zsh](https://img.shields.io/badge/shell-zsh-brightgreen.svg)
 [Oh-My-Zsh](http://ohmyz.sh/) is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout...
+
+##[![](https://img.shields.io/badge/theme-zprezto-blue.svg?style=for-the-badge)](https://github.com/sorin-ionescu/prezto)
+
+To install the theme:
+
+1. You have to clone the repo [![](https://img.shields.io/badge/theme-zprezto-blue.svg)](https://github.com/sorin-ionescu/prezto) 
+2. Create a new Zsh configuration by copying the Zsh configuration files
+     provided:
+
+	```sh
+	setopt EXTENDED_GLOB
+	for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+	ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+	done
+	```
+
+
+
+3. Set Zsh as your default shell:
+
+	```console
+	chsh -s /bin/zsh
+	```
+
+3. Open a new Zsh terminal window or tab.
