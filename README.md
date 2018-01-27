@@ -1,6 +1,6 @@
 
 [<img src="https://raw.githubusercontent.com/bnb/awesome-hyper/master/Hyper-Mark-Large.png" align="right" width="240" style="margin-left: 20px">](https://hyper.is)
-# Hyper.js Configuarion
+# Hyper.js Configuarion [![hyper](https://img.shields.io/badge/Hyper-v1.3.3-brightgreen.svg)](https://github.com/zeit/hyper/releases/tag/1.3.3)
 I am using [Hyper](https://hyper.is/) terminal on Mac every day, so I customised it to fit my needs in terms of apearance and usage.
 
 <br><br>
@@ -14,9 +14,22 @@ Name     | Description
 [hyperlayout](https://www.npmjs.com/package/hyperlayout)                 | Layout presets for Hyper.app
 [hyperterm_cursor](https://www.npmjs.com/package/hyperterm-cursor)       | Allows seeing the char behind your cursor by a color difference.
 [hypergoogle](https://www.npmjs.com/package/hypergoogle)                 |   Open a Google search from the terminal.
-[hyper-blink](https://www.npmjs.com/package/hyper-blink).                | Make your cursor blink.
-[hyper-spotify](https://www.npmjs.com/package/hyper-spotify)             s| Display currently playing song on Spotify at the bottom or the top of the terminal and allows you to control your favourite music
+[hyper-blink](https://www.npmjs.com/package/hyper-blink)                 | Make your cursor blink.
+[hyper-spotify](https://www.npmjs.com/package/hyper-spotify)             | Display currently playing song on Spotify at the bottom or the top of the terminal and allows you to control your favourite music
 
+### Custom Theme for hyper-spotify
+```javascript
+hyperSpotify: {
+      theme: 'custom', // important!
+      controlsPosition: 'default',
+      position: 'top',
+      overlayColor: '#fff',
+      iconColor: '#D75C1B',
+      spotifyIconColor: '#1ED760',
+      textColor: '#1ED760',
+      margin: 'double'
+    }
+```
 
 
 # Shell: ZSH configuaration
