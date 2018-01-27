@@ -31,7 +31,7 @@ hyperSpotify: {
 }
 ```
 ## Outcome
-![outcome](readmeResoures/results.png)
+![outcome](./readmeResoures/results.png)
 
 
 # Shell: ZSH configuaration
