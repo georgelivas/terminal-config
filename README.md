@@ -1,11 +1,11 @@
 [<img src="https://raw.githubusercontent.com/bnb/awesome-hyper/master/Hyper-Mark-Large.png" align="right" width="240" style="margin-left: 20px">](https://hyper.is)
 # My Terminal Configuration [![hyper](https://img.shields.io/badge/Hyper-v1.3.3-brightgreen.svg)](https://github.com/zeit/hyper/releases/tag/1.3.3) [![Visit my Blog](https://img.shields.io/badge/Visit%20my-Blog-blue.svg)](https://georgelivas.github.io)
-# Hyper.app Configuarion
+## Hyper.app Configuarion
 I am using [Hyper](https://hyper.is/) terminal on Mac every day, so I customised it to fit my needs in terms of apearance and usage.
 
 <br><br>
 
-## Packages
+### Packages
 >All packages below and many more can be found at the repo: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [Hyper](https://github.com/bnb/awesome-hyper)
 
 Name     | Description
@@ -17,7 +17,7 @@ Name     | Description
 [hyper-blink](https://www.npmjs.com/package/hyper-blink)                 | Make your cursor blink.
 [hyper-spotify](https://www.npmjs.com/package/hyper-spotify)             | Display currently playing song on Spotify at the bottom or the top of the terminal and allows you to control your favourite music
 
-### Custom Theme for hyper-spotify
+#### Custom Theme for hyper-spotify
 ```javascript
 hyperSpotify: {
    theme: 'custom',
@@ -30,13 +30,13 @@ hyperSpotify: {
    margin: 'double'
 }
 ```
-## Outcome
+### Outcome
 ![outcome](./readmeRresources/results.png)
 
-# Shell Configuaration ![zsh](https://img.shields.io/badge/shell-zsh-brightgreen.svg)
+## Shell Configuaration ![zsh](https://img.shields.io/badge/shell-zsh-brightgreen.svg)
 [Oh-My-Zsh](http://ohmyz.sh/) is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 
-## [![](https://img.shields.io/badge/theme-zprezto-blue.svg?style=for-the-badge)](https://github.com/sorin-ionescu/prezto)
+### [![](https://img.shields.io/badge/theme-zprezto-blue.svg?style=for-the-badge)](https://github.com/sorin-ionescu/prezto)
 
 To install the theme:
 
@@ -61,7 +61,7 @@ To install the theme:
 
 3. Open a new Zsh terminal window or tab.
 
-# Acknowledgments
+## Acknowledgments
 * [Hyper.app](https://hyper.is/)
 * [Oh-My-Zsh](http://ohmyz.sh/)
 * [Prezto Theme](https://img.shields.io/badge/theme-zprezto-blue.svg)](https://github.com/sorin-ionescu/prezto)
