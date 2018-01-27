@@ -1,5 +1,9 @@
+# My Terminal Configuration
+[![hyper](https://img.shields.io/badge/Hyper-v1.3.3-brightgreen.svg)](https://github.com/zeit/hyper/releases/tag/1.3.3) [![Visit my Blog](https://img.shields.io/badge/Visit%20my-Blog-blue.svg)](https://georgelivas.github.io)
+![zsh](https://img.shields.io/badge/shell-zsh-brightgreen.svg)
+[![](https://img.shields.io/badge/theme-zprezto-blue.svg)](https://github.com/sorin-ionescu/prezto) 
 [<img src="https://raw.githubusercontent.com/bnb/awesome-hyper/master/Hyper-Mark-Large.png" align="right" width="240" style="margin-left: 20px">](https://hyper.is)
-# My Terminal Configuration [![hyper](https://img.shields.io/badge/Hyper-v1.3.3-brightgreen.svg)](https://github.com/zeit/hyper/releases/tag/1.3.3) [![Visit my Blog](https://img.shields.io/badge/Visit%20my-Blog-blue.svg)](https://georgelivas.github.io)
+
 ## Hyper.app Configuarion
 I am using [Hyper](https://hyper.is/) terminal on Mac every day, so I customised it to fit my needs in terms of apearance and usage.
 
