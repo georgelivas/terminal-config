@@ -60,5 +60,8 @@ To install the theme:
 
 3. Open a new Zsh terminal window or tab.
 
-
+# Acknowledgments
+* [Hyper.app](https://hyper.is/)
+* [Oh-My-Zsh](http://ohmyz.sh/)
+* [Prezto Theme](https://img.shields.io/badge/theme-zprezto-blue.svg)](https://github.com/sorin-ionescu/prezto)
 
