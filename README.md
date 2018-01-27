@@ -64,5 +64,5 @@ To install the theme:
 ## Acknowledgments
 * [Hyper.app](https://hyper.is/)
 * [Oh-My-Zsh](http://ohmyz.sh/)
-* [Prezto Theme](https://img.shields.io/badge/theme-zprezto-blue.svg)](https://github.com/sorin-ionescu/prezto)
+* [Prezto Theme](https://github.com/sorin-ionescu/prezto)
 
